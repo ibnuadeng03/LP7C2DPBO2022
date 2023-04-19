@@ -63,24 +63,16 @@ Perhatikanlah petunjuk berikut ini dengan seksama :
 ## Requirements : 
 + JDK (diharapkan versi yang terbaru)
 + Apache NetBeans (diharapkan versi yang terbaru)
-+ Database (PHPMyAdmin) 
 + XAMPP (diharapkan versi yang terbaru)
 
 
 ## Desain Program :
-##### ![UML](/tangkapanlayar/UMLTP2.png "1")
-Dari bagan diatas, terkait dengan desain yang dibuat, dengan demikian saya uraikan menjadi beberapa point-point penting berikut : 
-- `xxx` : 
-- `xxx` : 
-- `xxx` : 
-- `xxx` : 
-- `xxx` : 
-- `xxx` : 
-- `xxx` : 
+##### ![Class Diagram](/UMLLP7.png "1")
+Dari bagan gambar diatas, terkait dengan desain yang dibuat, dengan demikian dapat disimpulkan bahwa dalam hal ini terdapat 8 kelas yang digunakan, yakni ` Synchronization`, `Game`, `Handler`, `GameObject`, `Player`, `Display`, `Controller`, dan sebuah Interface yakni pada kelas `GameInterface`. Keterangan dan/atau penjelasan lebih detail dapat dilihat pada gambar yang terlampir diatas. 
 
 ## Dokumentasi Running Program
 ### a. Tampilan Awal
-### b. Tampilan Setelah Ada nilainya
+### b. Tampilan Setelah Ada Scorenya
 
 ### **Catatan**
 *Jika terjadi hal kesalahan teknis/program error atau lainnya, dengan hormat mohon untuk melakukan validasi kepada saya, karena tentunya hal tersebut dimungkinkan terjadi diluar prakiraan/dugaan. Demikian, harap untuk menjadi maklum. Atas Perhatian dan Kerjasamanya diucapkan terima kasih*
