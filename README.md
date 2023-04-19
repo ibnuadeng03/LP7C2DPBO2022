@@ -67,12 +67,14 @@ Perhatikanlah petunjuk berikut ini dengan seksama :
 
 
 ## Desain Program :
-##### ![Class Diagram](/UMLLP7.png "1")
+##### ![Class Diagram](/screenshot/UMLLP7.png "1")
 Dari bagan gambar diatas, terkait dengan desain yang dibuat, dengan demikian dapat disimpulkan bahwa dalam hal ini terdapat 8 kelas yang digunakan, yakni ` Synchronization`, `Game`, `Handler`, `GameObject`, `Player`, `Display`, `Controller`, dan sebuah Interface yakni pada kelas `GameInterface`. Keterangan dan/atau penjelasan lebih detail dapat dilihat pada gambar yang terlampir diatas. 
 
 ## Dokumentasi Running Program
 ### a. Tampilan Awal
-### b. Tampilan Setelah Ada Scorenya
+##### ![Tamp. Awal](/screenshot/1.png "1")
+### b. Tampilan Setelah memperoleh Score
+##### ![Tamp. Akhir](/screenshot/2.png "2")
 
 ### **Catatan**
 *Jika terjadi hal kesalahan teknis/program error atau lainnya, dengan hormat mohon untuk melakukan validasi kepada saya, karena tentunya hal tersebut dimungkinkan terjadi diluar prakiraan/dugaan. Demikian, harap untuk menjadi maklum. Atas Perhatian dan Kerjasamanya diucapkan terima kasih*
