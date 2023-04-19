@@ -42,7 +42,11 @@ Perhatikanlah petunjuk berikut ini dengan seksama :
   - **Klik lagi (apapun itu selagi pada syantax WASD, tambah satu.** _Maka Skor bertambah satu lagi yakni menjadi **3**._ 
   - Demikian Seterusnya ...
 - **Mohon untuk diperhatikan,** jika terjadi error ketika Anda menjalankan kode tersebut, silakan Anda cek pada bagian file **Game.java**, kemudian amati dan periksa pada baris ke-160-an,  yang ditandai dengan kode `bs = createBufferStrategy(SOMEBITS);`  kode pada bagian itu silakan Anda ganti menjadi `SOMEBITS-nya jadi 3 atau 4` untuk meminimalisir kode yang error.
-- Masukkan kode yang telah Anda buat pada repository GitHub milik Anda masing-masing dengan nama repository **"LP7C2DPBO2022"**, kemudian kumpulkan tautan/link repository GitHub tersebut [Disini](https://forms.gle/rvb1hKxbQVuYNbhKA) dengan batas waktu pengumpulan terakhir pada hari **Minggu, 23 April 2023 M / 02 Syawal 1444 H Pukul 23.59 WIB**.
+- Masukkan kode yang telah Anda buat pada repository GitHub milik Anda masing-masing dengan nama repository **"LP7C2DPBO2022"** yang diset Public, kemudian kumpulkan tautan/link repository GitHub tersebut [Disini](https://forms.gle/rvb1hKxbQVuYNbhKA) 
+- Hanya program pada branch main yang akan diperiksa.
+- Jika waktu pengumpulan sudah habis dan Anda ingin mengupdate kode program, update pada branch lain karena mengupdate branch Main setelah waktu pengumpulan berakhir maka program tidak akan diperiksa.
+- File README berisi desain program, penjelasan alur, dan dokumentasi saat program dijalankan (screenshot/screen record).
+- Anda dapat mengumpulkan hingga batas waktu pengumpulan terakhir yakni pada hari **Minggu, 23 April 2023 M / 02 Syawal 1444 H Pukul 23.59 WIB**.
 
 ## Bahasa Pemrograman Yang Dipakai :
 - [X] [Java](https://azure.microsoft.com/id-id/resources/cloud-computing-dictionary/what-is-java-programming-language/) : bahasa pemrograman *Object Oriented multiplatform* yang pada umumnya digunakan untuk pengembangan aplikasi dan website yang sampai saat ini dijalankan pada miliaran perangkat di seluruh dunia.
