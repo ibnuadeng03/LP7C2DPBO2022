@@ -72,10 +72,12 @@ Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
 Dari bagan gambar diatas, terkait dengan desain yang dibuat, dengan demikian dapat disimpulkan bahwa dalam hal ini terdapat 9 kelas yang digunakan, yakni ` Synchronization`, `Game`, `Handler`, `GameObject`, `Player`, `Display`, `Controller`, `RandomBox` dan sebuah Interface yakni pada kelas `GameInterface`. Keterangan dan/atau penjelasan lebih detail dapat dilihat pada gambar yang terlampir diatas. 
 
 ## Dokumentasi Running Program
-### a. Tampilan Awal
-##### ![Tamp. Awal](/screenshot/1.png "1")
-### b. Tampilan Setelah memperoleh Score
-##### ![Tamp. Akhir](/screenshot/2.png "2")
+### a. Tampilan program bagian yang secara umum
+https://user-images.githubusercontent.com/100753882/234047052-3b9b9fac-99d1-4319-aa66-a6c469797887.mp4
+
+### b. Tampilan program bagian Bonus
+https://user-images.githubusercontent.com/100753882/234047495-3be38189-5536-4882-a53d-7a17bdb52eb9.mp4
+
 
 ### **Catatan**
 *Jika terjadi hal kesalahan teknis/program error atau lainnya, dengan hormat mohon untuk melakukan validasi kepada saya, karena tentunya hal tersebut dimungkinkan terjadi diluar prakiraan/dugaan. Demikian, harap untuk menjadi maklum. Atas Perhatian dan Kerjasamanya diucapkan terima kasih*
