@@ -13,7 +13,7 @@ Program Studi Ilmu Komputer.
 ```
 > IBNU ADENG KURNIA - 2101769 - KOM4C2 - © 2023 Univ. Pendidikan Indonesia
 
-## Pert-7. INTRODUCTION TO JAVA GUI: *APACHE NETBEANS- SYNCHRONIZATION*
+## Pert-7. INTRODUCTION TO JAVA GUI: *APACHE NETBEANS- GAME LOGIC & SYNCHRONIZATION*
 *Repositori ini dibuat sebagai dokumentasi fortofolio pengerjaan Latihan Praktikum Ke-7 (LP7), kemudian setelah selesai pengerjaan ini mahasiswa diharapkan :*
 ```
 a. Mahasiswa mampu memahami konsep Object Oriented Programming (OOP) digunakan untuk penyelesaian permasalahan-permasalahan yang ada.
@@ -33,20 +33,21 @@ e. Mahasiswa mampu memahami konsep Graphical User Interface (GUI) 'Synchronizati
 
 
 ## Petunjuk Pengerjaan Soal.
-Perhatikanlah petunjuk berikut ini dengan seksama :
-- Modifikasi kode yang telah diberikan. Ketika ada perintah dari user berupa Klik WASD, skor masih jadi 1 2 3 4 secara hardcode. 
-- Kemudian modifikasi pada bagian _skornya_ sehingga _ketika ganti tombol yang diklik, skornya selalu akan terus bertambah._ Sebagai contoh, misalnya :
-  - **posisi awal/sekarang adalah 0.** 
-  - **Klik W, tambah satu.** _Skor menjadi **1**, berhenti._ ; 
-  - **Klik D, tambah satu.** _Skor bertambah lagi menjadi **2**, berhenti._ ; 
-  - **Klik lagi (apapun itu selagi pada syantax WASD, tambah satu.** _Maka Skor bertambah satu lagi yakni menjadi **3**._ 
-  - Demikian Seterusnya ...
+Modifikasi kode yang sudah diberikan, dengan ketentuan sebagai berikut:
+- Pemain mengendalikan bola. Setiap kali bola bergerak, skor pemain bertambah +1. 
+- Skor hanya bertambah jika pemain berbelok, bukan bergerak berurutan. Detail:
+  - Saat pertama kali membuka program, pemain bergerak ke arah manapun, skor +1.
+  - Setelah pemain bergerak, dia harus bergerak ke arah lain agar skornya +1. Jika menekan tombol yang sama, skor tetap (+0).
+  - Contoh, pemain membuka program, lalu bergerak ke kanan dan berhenti, maka skor bertambah +1. Jika pemain bergerak ke arah atas, bawah, atau kiri, maka skor bertambah +1. Namun, jika pemain bergerak ke kanan lagi, maka skor +0.
+  - Bagaimana jika urutannya, kanan - atas - kiri - kanan? Kanan yang kedua tetap +1, karena pergerakan pemain sebelumnya adalah kiri, sehingga tidak dianggap berurutan.
+- [BONUS] Buatlah sistem game yang menambahkan satu kotak atau objek apapun secara acak. Jika pemain menyentuh objek tersebut, skor bertambah +5 atau +10, lalu objek akan berpindah lagi ke posisi lain secara acak.
 - **Mohon untuk diperhatikan,** jika terjadi error ketika Anda menjalankan kode tersebut, silakan Anda cek pada bagian file **Game.java**, kemudian amati dan periksa pada baris ke-160-an,  yang ditandai dengan kode `bs = createBufferStrategy(SOMEBITS);`  kode pada bagian itu silakan Anda ganti menjadi `SOMEBITS-nya jadi 3 atau 4` untuk meminimalisir kode yang error.
-- Masukkan kode yang telah Anda buat pada repository GitHub milik Anda masing-masing dengan nama repository **"LP7C2DPBO2022"** yang diset Public, kemudian kumpulkan tautan/link repository GitHub tersebut [Disini](https://forms.gle/rvb1hKxbQVuYNbhKA) 
+- Diharapkan untuk mulai bisa meng-*compile* secara manual, bukan di-*run* via IDE. Hal ini bertujuan agar Anda dapat terbantu ketika Anda hendak presentasi TMD dikemudian hari.
+- Masukkan kode yang telah Anda buat pada repository GitHub milik Anda masing-masing dengan nama repository **"LP7...DPBO2023"** (..., diisi sesuai kelas C1/C2) yang diset Public, kemudian kumpulkan tautan/link repository GitHub tersebut [Disini](https://forms.gle/rvb1hKxbQVuYNbhKA) 
 - Hanya program pada branch main yang akan diperiksa.
 - Jika waktu pengumpulan sudah habis dan Anda ingin mengupdate kode program, update pada branch lain karena mengupdate branch Main setelah waktu pengumpulan berakhir maka program tidak akan diperiksa.
 - File README berisi desain program, penjelasan alur, dan dokumentasi saat program dijalankan (screenshot/screen record).
-- Anda dapat mengumpulkan hingga batas waktu pengumpulan terakhir yakni pada hari **Minggu, 23 April 2023 M / 02 Syawal 1444 H Pukul 23.59 WIB**.
+- Anda dapat mengumpulkan hingga batas waktu pengumpulan terakhir yakni pada hari **Selasa, 25 April 2023 M / 04 Syawal 1444 H Pukul 23.59 WIB** (Extended).
 
 ## Bahasa Pemrograman Yang Dipakai :
 - [X] [Java](https://azure.microsoft.com/id-id/resources/cloud-computing-dictionary/what-is-java-programming-language/) : bahasa pemrograman *Object Oriented multiplatform* yang pada umumnya digunakan untuk pengembangan aplikasi dan website yang sampai saat ini dijalankan pada miliaran perangkat di seluruh dunia.
@@ -68,7 +69,7 @@ Perhatikanlah petunjuk berikut ini dengan seksama :
 
 ## Desain Program :
 ##### ![Class Diagram](/screenshot/UMLLP7.png "1")
-Dari bagan gambar diatas, terkait dengan desain yang dibuat, dengan demikian dapat disimpulkan bahwa dalam hal ini terdapat 8 kelas yang digunakan, yakni ` Synchronization`, `Game`, `Handler`, `GameObject`, `Player`, `Display`, `Controller`, dan sebuah Interface yakni pada kelas `GameInterface`. Keterangan dan/atau penjelasan lebih detail dapat dilihat pada gambar yang terlampir diatas. 
+Dari bagan gambar diatas, terkait dengan desain yang dibuat, dengan demikian dapat disimpulkan bahwa dalam hal ini terdapat 9 kelas yang digunakan, yakni ` Synchronization`, `Game`, `Handler`, `GameObject`, `Player`, `Display`, `Controller`, `RandomBox` dan sebuah Interface yakni pada kelas `GameInterface`. Keterangan dan/atau penjelasan lebih detail dapat dilihat pada gambar yang terlampir diatas. 
 
 ## Dokumentasi Running Program
 ### a. Tampilan Awal
